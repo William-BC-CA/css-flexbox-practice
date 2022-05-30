@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+    background-color: red;
+}
+
+div[class *= "flex-container"] div{
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    font-size: 40px;
+}
